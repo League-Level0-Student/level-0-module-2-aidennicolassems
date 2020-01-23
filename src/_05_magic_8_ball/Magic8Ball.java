@@ -17,14 +17,22 @@ public static void main(String[] args) {
 
 	// 2. Make a variable that will hold a random number and put a random number into this variable using ""
 	Random ran = new Random();
-	num = ran.nextInt();
+ int num = ran.nextInt(2);
 	// 3. Print out this variable
-    System.out.println(Number);
+    System.out.println(num);
 	// 4. Get the user to enter a question for the 8 ball
 JOptionPane.showInputDialog("Ask a question already");
 	// 5. If the random number is 0
-if ran = 0;
-	// -- tell the user "Yes"
+if (num == 0){
+	JOptionPane.showMessageDialog(null, "YES"); 
+
+}
+else if (num == 1){
+	JOptionPane.showMessageDialog(null, "NEVER"); 
+}
+
+
+// -- tell the user "Yes"
 
 	// 6. If the random number is 1
 
