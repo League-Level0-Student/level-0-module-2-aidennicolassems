@@ -1,14 +1,18 @@
 //1. Make a variable to hold the X co-ordinate of the dot and set it to 50.
-
+ int Xcord = 50;
 void setup() {
     size(800, 200);
 }
 
 void draw() {
-    //3. make the ellipse a nice color
-
+  background(#FFFFFF);   //3. make the ellipse a nice color
+fill(#8E2424);
+ellipse(Xcord,100,10,10);
+ 
     //4. If the mouse is pressed change the X co-ordinate so that the dot moves to the right
-
+if (mousePressed){
+  Xcord+=100;
+}
     //5. Make your dot move faster
     //  (you have to figure out what part of your code to change)
 
