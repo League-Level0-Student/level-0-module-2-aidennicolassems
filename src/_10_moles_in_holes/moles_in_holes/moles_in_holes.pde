@@ -1,10 +1,10 @@
 void draw() {
 
 /* Use the method below to put moles in the holes. */
-drawMole(70,100);
+drawMole(70,120);
 drawMole(299,56);
-
-
+drawMole(200,198);
+drawMole(295,349);
 
 if (mousePressed){
 println ("x="+ mouseX + "y=" + mouseY);
