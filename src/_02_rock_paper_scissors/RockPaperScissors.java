@@ -84,7 +84,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         int opponentSelection = 0;
         opponentSelection=ran.nextInt(2+1);
         //3. Run the program again. Is the result different?
- yes
+ 
         int selection = 0;
        
         if(e.getSource() == paperButton){
