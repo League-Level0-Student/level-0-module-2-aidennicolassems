@@ -1,5 +1,26 @@
-package _99_extra;
-
-public class Fillintheblanks {
-
-}
+//num=ran.nextInt(1000)-1;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
