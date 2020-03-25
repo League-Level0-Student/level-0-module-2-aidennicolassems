@@ -1,5 +1,5 @@
-//num=ran.nextInt(1000)-1;
-//
+//num=ran.nextInt(1000);
+//num=ran.nextInt(900)
 //
 //
 //
